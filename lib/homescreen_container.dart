@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:frontend/customShape_clipper.dart';
 import 'package:frontend/flight_list.dart';
 
- Color firstColor = Color(0XFFF47D15);
-  Color secondColor = Color(0XFFEF772C);
+ Color firstColor = Color(0XFF00695C);
+  Color secondColor = Color(0XFF00796B);
 
   List<String> locations = [
     'Nairobi (NBI',

@@ -18,7 +18,7 @@ void main() =>
  
 
   ThemeData appTheme = ThemeData(
-    primaryColor: Color(0xFFF3791A),
+    primaryColor: Color(0XFF00796B),
     fontFamily: 'Oxygen'
   );
 

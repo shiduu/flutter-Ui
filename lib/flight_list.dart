@@ -14,6 +14,7 @@ class FlightListScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           elevation: 0,
+          backgroundColor:Color(0XFF00796B),
           title: Text("Search for flights"),
           centerTitle: true,
           leading: InkWell(
