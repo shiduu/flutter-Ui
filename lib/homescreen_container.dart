@@ -6,8 +6,8 @@ import 'package:frontend/flight_list.dart';
   Color secondColor = Color(0XFFEF772C);
 
   List<String> locations = [
-    'Boston (BOS',
-    'New York (JKM)',
+    'Nairobi (NBI',
+    'Mombasa (MSA)',
   ];
   
 const dropDownLabelStyle = TextStyle(color: Colors.white,fontSize: 16);
