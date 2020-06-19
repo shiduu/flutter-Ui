@@ -29,7 +29,6 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        title: Text('shidu'),
         actions: <Widget>[
         IconButton(
           icon: Icon(
