@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/custom_appbar.dart';
+import 'package:frontend/drawer.dart';
 import 'package:frontend/homescreen_container.dart';
 import 'package:frontend/lowerpart.dart';
 
@@ -26,11 +27,27 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        title: Text('shidu'),
+        actions: <Widget>[
+        IconButton(
+          icon: Icon(
+            Icons.settings,
+            //color: Colors.white,
+          ),
+          onPressed: () {
+            // do something
+          },
+    )
+  ],
+      ),
+      drawer: MainDrawer(),
       bottomNavigationBar: CustomAppBar(),
       body: SingleChildScrollView(
               child: Column(
           children: <Widget>[
-            
+          
             HomeScreenContainer(),
             LowerPart()
 

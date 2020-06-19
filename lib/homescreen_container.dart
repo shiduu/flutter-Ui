@@ -43,7 +43,7 @@ class _HomeScreenContainerState extends State<HomeScreenContainer> {
             //main column
             child: Column(
               children: <Widget>[
-                SizedBox(height: 40),
+                
 
                 //first row starts here
                 Padding(
@@ -80,8 +80,8 @@ class _HomeScreenContainerState extends State<HomeScreenContainer> {
 
                          ]
                         ),
-                        Spacer(),
-                        Icon(Icons.settings, color: Colors.white,)
+                        // Spacer(),
+                        // Icon(Icons.settings, color: Colors.white,)
                     ],
                     
                   ),
