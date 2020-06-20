@@ -93,7 +93,7 @@ class _HomeScreenContainerState extends State<HomeScreenContainer> {
                   'Where would \n you want to go?',
                    style: TextStyle(
                      color: Colors.white,
-                     fontSize: 24,             
+                     fontSize: 20,             
                    ),
                    textAlign: TextAlign.center,
                 ),
