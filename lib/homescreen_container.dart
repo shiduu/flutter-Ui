@@ -10,7 +10,7 @@ import 'package:frontend/flight_list.dart';
     'Mombasa (MSA)',
   ];
   
-const dropDownLabelStyle = TextStyle(color: Colors.white,fontSize: 16);
+const dropDownLabelStyle = TextStyle(color: Colors.white,fontSize: 13);
 const dropDownMenuItemStyle = TextStyle(color: Colors.black,fontSize: 16);
 
 
@@ -33,7 +33,7 @@ class _HomeScreenContainerState extends State<HomeScreenContainer> {
         ClipPath(
           clipper: CustomShapeClipper(),
           child: Container(
-            height: 400,
+            height: 330,
             decoration: BoxDecoration(
               gradient: LinearGradient(colors: [
                 firstColor,
@@ -88,12 +88,12 @@ class _HomeScreenContainerState extends State<HomeScreenContainer> {
                 ),
                
                //second row
-                SizedBox(height: 50),
+                SizedBox(height: 30),
                 Text(
                   'Where would \n you want to go?',
                    style: TextStyle(
                      color: Colors.white,
-                     fontSize: 20,             
+                     fontSize: 15,             
                    ),
                    textAlign: TextAlign.center,
                 ),
