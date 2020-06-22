@@ -104,7 +104,7 @@ class _HomeScreenContainerState extends State<HomeScreenContainer> {
                     elevation: 5,
                     borderRadius: BorderRadius.all(Radius.circular(30)),
                     child: TextField(
-                      controller: TextEditingController(text: locations[1]),
+                      controller: TextEditingController(text: locations[0]),
                       style: dropDownMenuItemStyle,
                       cursorColor: Color(0xFFF3791A),
                       decoration: InputDecoration(
